@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/easyhooon/movie_app_2020/precache-manifest.e419237b3aced5201d7ec2ecfd83d6d6.js"
+  "/easyhooon/movie_app_2020/precache-manifest.8d2fad2a7048fb4879a58bcd23f94844.js"
 );
 
 self.addEventListener('message', (event) => {
