@@ -220,3 +220,6 @@ class Home extends React.Component {
 //start command -> npm start
 
 //npm run build임 npm build가 아니라 
+
+//deploy가 호출될때마다 그 전에 predeploy가 호출됨 
+//업데이트를 할려면 npm i gh-pages -> npm run build -> npm run deploy를 해야한다 
