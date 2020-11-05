@@ -1,21 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Movie.css";
+import { Link } from 'react-router-dom';
 
-function Movie({ id, year, title, summary, poster, genres }) {
+function Movie({ title, year, summary, poster, genres }) {
   return (
     <div className="movie">
       <Link
         to={{
-          pathname: `/movie/${id}`,
+          pathname: `/movie-detail`,
           state: {
             year,
             title,
             summary,
             poster,
             genres
-          }
+          },
         }}
       >
         <img src={poster} alt={title} title={title} />
